@@ -251,7 +251,7 @@
     } else {
 
 %>
-<h2><openmrs:message code="legacyui.error.aunthenticationRequired"/></h2>
+<!-- <h2><openmrs:message code="legacyui.error.aunthenticationRequired"/></h2> -->
 <%
         response.sendRedirect(request.getContextPath() + "/login.htm");
 	}
